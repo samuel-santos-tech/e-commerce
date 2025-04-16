@@ -125,9 +125,23 @@ footer {
     gap: 10px;
 }
 
+.checkout {
+width: 100PX;
+}
+
+.checkout-img {
+    width: 120px;
+}
+
+.table-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 703px) {
     .lista-header {
-        /* display: none; */
+        display: none;
         flex-direction: column;
         background-color: #9c9c9c;
         padding: 10px;
@@ -136,9 +150,9 @@ footer {
         left: -76px;
     }
 
-    /* .hamburguer {
+    .hamburguer {
         display: block;
         cursor: pointer;
-    } */
+    }
     
 }
